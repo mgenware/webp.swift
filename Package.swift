@@ -14,7 +14,7 @@ let package = Package(
             targets: ["webp", "webpbridge"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/awxkee/libwebp-ios.git", "1.1.0"..<"1.2.0")
+        .package(url: "https://github.com/awxkee/libwebp-ios.git", "1.2.0"..<"1.3.0")
     ],
     targets: [
         .target(
